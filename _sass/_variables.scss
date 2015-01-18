@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'League Spartan';
+    src: url('/fonts/leaguespartan/leaguespartan-bold.eot');
+    src: url('/fonts/leaguespartan/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/leaguespartan/leaguespartan-bold.woff2') format('woff2'),
+         url('/fonts/leaguespartan/leaguespartan-bold.woff') format('woff'),
+         url('/fonts/leaguespartan/leaguespartan-bold.ttf') format('truetype'),
+         url('/fonts/leaguespartan/leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+$font-family-base: 'League Spartan';
+$navbar-desktop-text-size: 20px;
+$navbar-mobile-text-size: 14px;
