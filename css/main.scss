@@ -3,6 +3,9 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "bootstrap-compass",
+        "bootstrap-mincer",
+        "bootstrap-sprockets",
         "bootstrap",
         "default"
 ;
