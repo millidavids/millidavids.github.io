@@ -1,15 +1,23 @@
 html, body {
   width: 100%;
   height: 100%;
-  overflow: hidden;
   font-size: $navbar-desktop-text-size;
-
+  background-color: rgba(0, 0, 0, 0);
 
   @media screen and (max-width: 768px) {
     font-size: $navbar-mobile-text-size;
   }
 
+  .background-div {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url("/images/gray_geo.png");
+    z-index: -1000;
+  }
+
   .container-fluid {
+    background-color: rgba(255, 255, 255, 1);
     height: 100%;
 
     @media screen and (min-width: 442px){
@@ -36,6 +44,14 @@ html, body {
 
           a {
             text-decoration: none;
+            color: black;
+            -webkit-transition: all 0.3s ease;
+                    transition: all 0.3s ease;
+
+            &:hover, &:focus, &:active {
+              color: orange;
+              font-size: 30px;
+            }
           }
         }
       }
