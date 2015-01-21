@@ -5,14 +5,18 @@
 
   <body>
 
-    <div class="background-div"></div>
+    <div class="parallax">
 
-    <div class="container-fluid">
-      {% include header.html %}
+      <div class="parallax-layer parallax-layer-back background-div"></div>
 
-      {{ content }}
+      <div class="container-fluid parallax-layer parallax-layer-base">
+        {% include header.html %}
 
-      {% include footer.html %}
+        {{ content }}
+
+        {% include footer.html %}
+      </div>
+
     </div>
 
   </body>
