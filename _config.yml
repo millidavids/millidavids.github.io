@@ -9,6 +9,8 @@ github_username:  millidavids
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
 
+# Sass directory
 sass:
     sass_dir: _sass

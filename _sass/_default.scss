@@ -2,8 +2,6 @@ html {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
-  letter-spacing: 1px;
-  font-size: $navbar-desktop-text-size;
   background-image: url("/images/gray_geo.png");
   background-color: white;
   background-repeat: repeat;
@@ -13,6 +11,7 @@ body {
   min-height: 100vh;
   width: 100%;
   overflow: hidden;
+  font-size: 16px;
 }
 
 .page {
@@ -55,5 +54,6 @@ body {
 .content {
   box-shadow: 10px 10px 30px #101010;
   padding: 10px;
+  margin-bottom: 50px;
   background-color: rgba(255, 255, 255, 1);
 }

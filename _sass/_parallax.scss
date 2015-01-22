@@ -1,12 +1,15 @@
 body {
   -webkit-perspective: 500;
   -webkit-perspective-origin: 0 0;
+          perspective: 500;
+          perspective-origin: 0 0;
 }
 .under1 {
   position:absolute;
   width: 100%;
   min-height: 100%;
   -webkit-transform: translateZ(-500px) scale(3);
+          transform: translateZ(-500px) scale(3);
   background-image: url('/images/gray_geo.png');
   z-index: -1;
 }
