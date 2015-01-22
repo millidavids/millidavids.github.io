@@ -4,6 +4,9 @@ html {
   overflow-x: hidden;
   letter-spacing: 1px;
   font-size: $navbar-desktop-text-size;
+  background-image: url("/images/gray_geo.png");
+  background-color: white;
+  background-repeat: repeat;
 }
 
 body {
@@ -15,6 +18,10 @@ body {
 .page {
   width: 60%;
   margin: auto;
+
+  @media(max-width: 768px) {
+    width: 100%;
+  }
 }
 
 .navbar {
@@ -41,5 +48,7 @@ body {
 }
 
 .content {
+  box-shadow: 10px 10px 30px #101010;
+  padding: 10px;
   background-color: rgba(255, 255, 255, 1);
 }
