@@ -1,8 +1,9 @@
 .parallax {
   perspective: 1px;
-  height: 100%;
+  width: 100%;
   overflow-x: hidden;
   overflow-y: auto;
+  z-index: -1000;
 }
 .parallax-layer {
   position: absolute;
@@ -15,5 +16,11 @@
   transform: translateZ(0);
 }
 .parallax-layer-back {
+  height: 100%;
+  bottom: 0%;
+  background-image: url("/images/gray_geo.png");
+  background-color: white;
+  background-repeat: repeat;
   transform: translateZ(-1px) scale(2);
+  z-index: -999;
 }

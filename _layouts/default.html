@@ -1,24 +1,17 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
+  <body class="parallax">
 
-  <body>
+    <div class="parallax-layer parallax-layer-back"></div>
+    <div class="parallax-layer parallax-layer-base"></div>
 
-    <div class="parallax">
-
-      <div class="parallax-layer parallax-layer-back background-div"></div>
-
-      <div class="container-fluid parallax-layer parallax-layer-base">
-        {% include header.html %}
-
+    <div class="page">
+      {% include header.html %}
+      <<div class="content">
         {{ content }}
-
-        {% include footer.html %}
       </div>
-
+      {% include footer.html %}
     </div>
-
   </body>
-
 </html>
