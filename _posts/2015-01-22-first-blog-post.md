@@ -12,8 +12,8 @@ This first post was created during the development of my site. Among many other 
 Keeping this first post short, I will probably just thank all of the developers that made all of the (cool)tools I am using right now to make my site. Take [Jekyll][jekyll] for instance. This whole site was created using [Jekyll][jekyll]. Another cool guide I used for the parallax effect of my background came from [this post on coderwall][coderwallpost]. Thank you guys and gals, for all of your time and smarts.
 
 {% highlight ruby %}
-def do_a_thing
-  print "something"
+def signature
+  "David Yurek".fancy_handwritingify
 end
 {% endhighlight %}
 
