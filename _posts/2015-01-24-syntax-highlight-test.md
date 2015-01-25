@@ -57,3 +57,11 @@ class Conway
   end
 end
 {% endhighlight %}
+
+---
+
+{% highlight ruby %}
+def signature
+  "David Yurek".fancy_handwritingify
+end
+{% endhighlight %}

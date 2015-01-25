@@ -15,6 +15,7 @@ The Golang application is slowing down. There is a kind of 'connotation' that co
 
 Eventually, as my skills and knowledge grow, I plan to branch out and start contributing to other open source projects; my way of giving back. I admire those that write the numerous tool that I use daily, hoping one day that I will be one of those people.
 
+---
 
 {% highlight ruby %}
 def signature
