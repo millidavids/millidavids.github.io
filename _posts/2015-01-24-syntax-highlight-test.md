@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Conway game of life (syntax test)."
+title:  "Conway game of life (highlighting test)."
 date:   2015-01-24
 categories: syntax highlight
 ---
