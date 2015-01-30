@@ -61,7 +61,7 @@ body {
 .splash {
   position: relative;
   width: 100%;
-  height: 120vh;
+  height: 80vh;
   font-size: 10vw;
   text-align: center;
   color: $david-orange;
@@ -71,9 +71,9 @@ body {
   }
 }
 
-.logo {
+.logo, .about-links-row {
   position: inherit;
-  top: 50%;
+  top: 35%;
 }
 
 .about-links {
