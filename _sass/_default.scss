@@ -16,7 +16,6 @@ body {
 
 .page {
   width: 60%;
-  height: 100vh;
   margin: auto;
 
   @media(max-width: 768px) {
@@ -62,7 +61,7 @@ body {
 .splash {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 120vh;
   font-size: 10vw;
   text-align: center;
   color: $david-orange;
@@ -75,7 +74,6 @@ body {
 .logo {
   position: inherit;
   top: 50%;
-  margin-top: -25%;
 }
 
 .about-links {
