@@ -33,18 +33,19 @@ body {
 
       a {
         font-size: $navbar-desktop-text-size;
+        text-decoration: none;
+        color: white;
 
         @media(max-width: 768px) {
           font-size: $navbar-mobile-text-size;
         }
-        text-decoration: none;
-        color: white;
+
         -webkit-transition: all 0.3s ease;
                 transition: all 0.3s ease;
 
         &:hover, &:focus, &:active {
           color: $david-orange;
-          font-size: 30px;
+          font-size: 150%;
         }
       }
     }
