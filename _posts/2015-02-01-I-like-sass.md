@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Healthy body and mind."
-date:   2015-01-28
-categories: healthy body mind exercise
+title: "I like sass."
+date:   2015-02-01
+categories: CSS Sass
 ---
 
 I have less than a year under my belt for web development. During which I have experienced quite a bit of CSS. CSS is a powerful tool. Lots of us use it every day. I love what it can do, it is like a set of paintbrushes for a web designer. A set of paintbrushes each with its own, sometimes seemingly repetitive, functions.
